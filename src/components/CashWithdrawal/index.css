@@ -1,0 +1,110 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #150b3e;
+  border-radius: 15px;
+  min-width: 50%;
+  padding: 50px;
+}
+
+.sarah-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 60%;
+}
+.circular-name-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 70px;
+  width: 70px;
+  border: none;
+  border-radius: 35px;
+}
+
+.letter {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #7c3aed;
+}
+.sarah-heading {
+  font-family: 'roboto';
+  font-size: 22px;
+  color: #c7d2fe;
+  margin-left: 20px;
+}
+.your-balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  padding-bottom: 0%;
+}
+.balance-heading {
+  font-family: 'roboto';
+  font-size: 23px;
+  color: #585076;
+  font-weight: 600;
+}
+.balance {
+  font-family: 'roboto';
+  font-size: 33px;
+  color: #c7d2fe;
+  font-weight: 600;
+}
+.rupees-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  min-width: 50%;
+  padding-top: 0%;
+  margin-top: 0px;
+}
+.rupees {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #585076;
+  padding-top: 0%;
+  font-weight: 600;
+}
+.withdraw-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.withdraw {
+  font-family: 'roboto';
+  font-size: 33px;
+  color: #c7d2fe;
+  font-weight: 500;
+}
+.description {
+  font-family: 'roboto';
+  font-size: 22px;
+  color: #585076;
+  font-weight: 500;
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-top: 20px;
+  list-style-type: none;
+}

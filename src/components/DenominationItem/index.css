@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.list-button {
+  margin-left: 0px;
+  width: 50%;
+}
+
+.number-button {
+  border: 2px solid #d4d2db;
+  border-radius: 10px;
+  background-color: #382f5a;
+  color: #c4c4c4;
+  width: 90%;
+  margin: 0px 20px 20px 0px;
+  font-family: 'roboto';
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
